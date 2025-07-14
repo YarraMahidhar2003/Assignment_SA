@@ -46,3 +46,8 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
    ```bash
    git clone [https://github.com/yourusername/sentiment-analysis-app.git](https://github.com/YarraMahidhar2003/Assignment_SA.git)
    cd sentiment-analysis-app
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+
