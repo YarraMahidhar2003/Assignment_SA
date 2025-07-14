@@ -59,9 +59,9 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
    
 ## App UI Preview
 1. Project Structure
-   ![Project Structure](./data/project_structure.png)
+   <pre> ``` sentiment-analysis-app/ ├── app.py ├── model/ │ ├── sentiment_model.pkl │ └── tokenizer.pkl ├── utils/ │ └── preprocessing.py ├──     data/ │ └── Project str.png ├── screenshots/ │ ├── structure.png │ └── results_table.png ├── requirements.txt └── README.md ``` </pre>
 2. Sample Results
-   ![Sample Results](./screenshots/results_table.png)
+   
 
 
 ### Author
