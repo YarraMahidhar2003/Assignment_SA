@@ -59,7 +59,7 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
    
 ## App UI Preview
 1. Project Structure
-   ![Project Structure](data/Project str.png)
+   ![Project Structure](./data/project_structure.png)
 2. Sample Results
    ![Sample Results](./screenshots/results_table.png)
 
