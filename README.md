@@ -1,16 +1,16 @@
-# 🧠 Sentiment Analysis Web App using DistilBERT
+# Sentiment Analysis Web App using DistilBERT
 
 A modern, real-time **Sentiment Analysis** application that uses **DistilBERT**, a lighter version of BERT, to classify user input text into **Positive**, **Negative**, or **Neutral** sentiment. The web interface is built using **Streamlit** for quick and interactive usage.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project leverages a pre-trained transformer model (**DistilBERT**) fine-tuned on a sentiment-labeled dataset. It allows users to type in text and instantly receive a prediction of the sentiment category, all via an intuitive web UI.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Frontend**: Streamlit (Python-based web UI)
 - **Backend**: HuggingFace Transformers (DistilBERT), PyTorch
@@ -20,7 +20,7 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
 
 ---
 
-## 🧰 Features
+## Features
 
 - ✔️ Real-time text sentiment prediction
 - ✔️ Transformer-based NLP with DistilBERT
@@ -31,7 +31,7 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
 
 ---
 
-## 🧪 Model Details
+## Model Details
 
 - **Model**: `distilbert-base-uncased`
 - **Training**: Fine-tuned on labeled text sentiment data (e.g., IMDb, Twitter, or custom)
@@ -40,14 +40,51 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/yourusername/sentiment-analysis-app.git](https://github.com/YarraMahidhar2003/Assignment_SA.git)
+   git clone https://github.com/YarraMahidhar2003/Assignment_SA.git
    cd sentiment-analysis-app
 2. Create and activate a virtual environment:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+5. Run the app:
+   ```bash
+   streamlit run app.py
+   
+## App UI Preview
+1. Project Structure
+sentiment-analysis-app/
+│
+├── app.py                  # Main Streamlit app
+├── model/
+│   ├── sentiment_model.pkl # Trained DistilBERT model
+│   ├── tokenizer.pkl       # Tokenizer object
+│
+├── data/
+│   ├── dataset.csv         # (Optional) Labeled training dataset
+│
+├── utils/
+│   ├── preprocessing.py    # Text cleaning and processing functions
+│
+├── requirements.txt
+├── README.md
+└── ...
+
+2. Sample Results
+| Input Text                      | Predicted Sentiment |
+| ------------------------------- | ------------------- |
+| "I love this product!"          | Positive            |
+| "This is the worst thing ever." | Negative            |
+| "It's okay, nothing special."   | Neutral             |
+
+### Author
+Yarra Mahidhar
+LinkedIn: Mahidhar Yarra
+Email: yarramahidhar24@gmail.com
 
