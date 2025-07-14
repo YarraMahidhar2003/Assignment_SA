@@ -44,5 +44,5 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/sentiment-analysis-app.git
+   git clone [https://github.com/yourusername/sentiment-analysis-app.git](https://github.com/YarraMahidhar2003/Assignment_SA.git)
    cd sentiment-analysis-app
