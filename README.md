@@ -62,19 +62,31 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
    sentiment-analysis-app/
    
    ├── app.py
-   
+   |
    ├── model/
+   |
    │   ├── sentiment_model.pkl
+   |
    │   └── tokenizer.pkl
+   |
    ├── utils/
+   |   |
    │   └── preprocessing.py
+   |   |
    ├── data/
+   |   |
    │   └── Project str.png
+   |
    ├── screenshots/
+   |   |
    │   ├── structure.png
+   |   |
    │   └── results_table.png
+   |
    ├── requirements.txt
+   |
    └── README.md
+   
 3. Sample Results
    
 
