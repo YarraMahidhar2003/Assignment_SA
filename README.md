@@ -88,15 +88,15 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
    └── README.md
    
 3. Sample Results
-   | Input Text                      | Predicted Sentiment |
    
-   |---------------------------------|---------------------|
+Input Text----------------------------Predicted Sentiment
+
+I love this product!------------------Positive
+
+This is the worst thing ever.---------Negative
    
-   | I love this product!            | Positive            |
-   
-   | This is the worst thing ever.   | Negative            |
-   
-   | It's okay, nothing special.     | Neutral             |
+It's okay, nothing special.-----------Neutral
+
 
 ### Author
 Yarra Mahidhar
