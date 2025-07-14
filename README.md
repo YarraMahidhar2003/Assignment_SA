@@ -59,29 +59,10 @@ This project leverages a pre-trained transformer model (**DistilBERT**) fine-tun
    
 ## App UI Preview
 1. Project Structure
-sentiment-analysis-app/
-│
-├── app.py                  # Main Streamlit app
-├── model/
-│   ├── sentiment_model.pkl # Trained DistilBERT model
-│   ├── tokenizer.pkl       # Tokenizer object
-│
-├── data/
-│   ├── dataset.csv         # (Optional) Labeled training dataset
-│
-├── utils/
-│   ├── preprocessing.py    # Text cleaning and processing functions
-│
-├── requirements.txt
-├── README.md
-└── ...
-
+   ![Project Structure](./screenshots/structure.png)
 2. Sample Results
-| Input Text                      | Predicted Sentiment |
-| ------------------------------- | ------------------- |
-| "I love this product!"          | Positive            |
-| "This is the worst thing ever." | Negative            |
-| "It's okay, nothing special."   | Neutral             |
+   ![Sample Results](./screenshots/results_table.png)
+
 
 ### Author
 Yarra Mahidhar
